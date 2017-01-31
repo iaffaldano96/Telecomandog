@@ -1,0 +1,101 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31-gen-2017, 9.01.40
+    Author     : tss
+*/
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 30-gen-2017, 22.07.10
+    Author     : lisai
+*/
+
+.immtele{
+    height: 800px; width:350px;
+    border: solid 2px black;
+    border-radius: 50px;
+    background-color: black; 
+    
+}
+
+.immtele div{
+    height: 25px; width:65px;
+    border: solid 2px gray;
+    background-color: lightgray;
+    float: left;
+    margin: 40px 20px 10px 20px;
+    text-align: center;
+}
+
+div.spegni{
+    height: 20px; width:20px;
+    border: solid 2px red;
+    background-color: red;
+    border-radius: 500px;
+    margin: 40px 40px;    
+}
+
+div.sour{
+    height: 20px; width:65px;
+    border: solid 2px gray;
+    background-color: lightgray;    
+    margin: -60px 40px 10px 220px
+}
+
+div.marca{
+    height: 40px; width:120px;   
+    border-color: transparent;
+    background-color:transparent;    
+    margin: 100px 100px 60px 100px;
+    text-align: center; vertical-align: middle;
+    font-size: 30px;
+    color: white;
+}
+
+div.color{
+    height: 30px; width:50px;
+    border: solid 2px ;
+    background-color: red;
+    border-radius: 10px;
+    margin: 30px 10px 30px 25px;
+    float: left;
+}
+
+div.colov{
+    height: 30px; width:50px;
+    border: solid 2px ;
+    background-color: green;
+    margin: 30px 10px 30px 10px;
+    border-radius: 10px;
+}
+
+div.colog{
+    height: 30px; width:50px;
+    border: solid 2px;
+    background-color: yellow;
+    margin: 30px 10px 30px 10px;
+    border-radius: 10px;
+}
+
+div.colob{
+    height: 30px; width:50px;
+    border: solid 2px;
+    background-color: blue;
+    margin: 30px 10px 30px 10px;
+    border-radius: 10px;
+}
+
+.immtele:hover{
+    background-image: url("tele.jpg"); background-repeat: no-repeat;
+    opacity:1;
+    position: absolute; top: 50px; left: 450px;
+    width: 500px;height:404px;
+}
